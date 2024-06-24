@@ -44,10 +44,3 @@ python3 kmeans_pp.py 3 100 0.01 input_1.txt input_2.txt
 2. Command-line arguments are in the correct format.
 3. All data points are unique.
 4. Uses double in C and float in Python for vector elements.
-```
-
-Submit the zip file via Moodle.
-
----
-
-Thank you for using this K-means++ and K-means implementation!
