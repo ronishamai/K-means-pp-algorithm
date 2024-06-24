@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages, Extension
 
 setup(
-    name='mykmeanssp',
+    name='spkmeans',
     version='0.1.0',
     author='Ayala Koslowsky, Roni Shamai',
     author_email='ronishamai@mail.tau.ac.il',
-    description='K-means++ algorithm, which is used to choose initial centroids for the K-means algorithm',
+    description='the normalized spectral clustering algorithm',
     install_requires=['invoke'],
     packages=find_packages(),
     license='GPL-2',
@@ -18,8 +18,8 @@ setup(
     ],
     ext_modules=[
         Extension(
-            'mykmeanssp',
-            ['kmeans.c']
+            'spkmeans',
+            ['spkmeansmodule.c','spkmeans.c']
         )
 
     ]
